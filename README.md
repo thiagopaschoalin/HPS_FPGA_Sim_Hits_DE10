@@ -1,16 +1,16 @@
 Requirements
 - Quartus Prime 23.1std Lite
 - Intel EDS Standard 17.0
-- SD Card 8gb
-- DE0-nano-SoC
+- SD Card 2gb
+- DE10-nano
 
 
 Brief Introduction:
 - HITS Real-Time FPGA TileCal Simulator to test online reconstruction techniques
 
 How to run:
-- Create a bootable SD card (8GB Minimum) with the image shared
-- Put the SD card on de DE0-nano-SoC board
+- Create a bootable SD card (2GB Minimum) with the image shared
+- Put the SD card on de DE10-nano board
 - MSEL switches must be all in "ON" position
 - Connect an Ethernet Cable
 - Turn on the board
