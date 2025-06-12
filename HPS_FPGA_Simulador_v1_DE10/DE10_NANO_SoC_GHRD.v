@@ -93,6 +93,7 @@ wire hps_fpga_reset_n;
 wire     [1: 0]     fpga_debounced_buttons;
 wire     [6: 0]     fpga_led_internal;
 wire     [6: 0]     occupancy;
+wire signed    [12: 0]    offset;
 wire     [31: 0]    bridge_lw_32bits;
 wire     [2: 0]     hps_reset_req;
 wire                hps_cold_reset;
@@ -104,6 +105,7 @@ wire                fpga_clk_50;
 
 assign fpga_led_internal = bridge_lw_32bits[6:0];
 assign occupancy = bridge_lw_32bits[6:0];
+assign offset = bridge_lw_32bits[12+7:7];
 assign LED[7: 1] = fpga_led_internal;
 assign fpga_clk_50 = FPGA_CLK1_50;
 assign stm_hw_events = {{15{1'b0}}, SW, fpga_led_internal, fpga_debounced_buttons};
@@ -283,10 +285,14 @@ assign LED[0] = led_level;
 		);
 		
 	  
-  wire bt_mask_out;
+	wire bt_mask_out;
 	wire [12:0] event_bt;
+	wire signed [29:0] shaper_corrupted;
+	wire signed [11:0] shaper_clip;
 	wire signed [29:0] shaper_out;
-	wire signed [45:0] pzc_out;
+	wire signed [28:0] pzc_out;
+	wire signed [12:0] pedestal_out;
+	wire signed [16:0] noise_out;
 
 	parameter PZC_M_FACTOR = 454;
   
@@ -299,13 +305,19 @@ assign LED[0] = led_level;
 		.clk(clk_40), 
 		.rst(~KEY[0]),
 		.occupancy(occupancy),
+		.offset(offset),	
 		.hits_out(),
 		.bt_mask_out(bt_mask_out),
 		.energy_out(), 
 		.event_bt(event_bt),
 		.event_all(),
+		.shaper_corrupted(shaper_corrupted),
+		.shaper_clip(shaper_clip),
 		.shaper_out(shaper_out),
+		.noise_out(noise_out),
+		.pedestal_out(pedestal_out),
 		.pzc_out(pzc_out)
+		 
 	);
 
 	wire signed [45:0] pzc_out_div1 = (pzc_out)/(PZC_M_FACTOR);

@@ -2,36 +2,36 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 100C Model Setup 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : -11.275
-TNS   : -1802.675
+Type  : Slow 1100mV 100C Model Setup 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.495
+TNS   : -131.217
 
 Type  : Slow 1100mV 100C Model Setup 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 1.574
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'FPGA_CLK1_50'
-Slack : 8.112
+Slack : 8.513
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'altera_reserved_tck'
-Slack : 8.959
+Slack : 9.588
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 0.164
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Hold 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.259
+Type  : Slow 1100mV 100C Model Hold 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.245
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'FPGA_CLK1_50'
-Slack : 0.318
+Slack : 0.327
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'altera_reserved_tck'
-Slack : 0.499
+Slack : 0.438
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -39,31 +39,31 @@ Slack : 3.040
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'FPGA_CLK1_50'
-Slack : 12.326
+Slack : 13.241
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'altera_reserved_tck'
-Slack : 16.398
+Slack : 17.779
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Recovery 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 22.666
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Removal 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.559
+Type  : Slow 1100mV 100C Model Recovery 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 22.785
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 0.562
 TNS   : 0.000
 
+Type  : Slow 1100mV 100C Model Removal 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.594
+TNS   : 0.000
+
 Type  : Slow 1100mV 100C Model Removal 'FPGA_CLK1_50'
-Slack : 0.688
+Slack : 0.696
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'altera_reserved_tck'
-Slack : 1.039
+Slack : 0.933
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
@@ -74,40 +74,40 @@ Type  : Slow 1100mV 100C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps
 Slack : 0.540
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Type  : Slow 1100mV 100C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
 Slack : 1.562
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'FPGA_CLK1_50'
-Slack : 8.843
+Slack : 8.846
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 11.086
+Type  : Slow 1100mV 100C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 11.082
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 18.190
+Slack : 18.248
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Setup 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : -12.382
-TNS   : -2025.795
+Type  : Slow 1100mV -40C Model Setup 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.484
+TNS   : -104.681
 
 Type  : Slow 1100mV -40C Model Setup 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 1.573
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'FPGA_CLK1_50'
-Slack : 8.676
+Slack : 8.761
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'altera_reserved_tck'
-Slack : 9.564
+Slack : 9.721
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Hold 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.147
+Type  : Slow 1100mV -40C Model Hold 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.161
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -115,11 +115,11 @@ Slack : 0.216
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'FPGA_CLK1_50'
-Slack : 0.275
+Slack : 0.270
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'altera_reserved_tck'
-Slack : 0.493
+Slack : 0.481
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -127,19 +127,19 @@ Slack : 3.130
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'FPGA_CLK1_50'
-Slack : 12.764
+Slack : 13.586
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 16.612
+Slack : 17.977
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Recovery 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 22.808
+Type  : Slow 1100mV -40C Model Recovery 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 22.950
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Removal 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.406
+Type  : Slow 1100mV -40C Model Removal 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.481
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -147,11 +147,11 @@ Slack : 0.590
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'FPGA_CLK1_50'
-Slack : 0.641
+Slack : 0.648
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.967
+Slack : 0.806
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
@@ -162,25 +162,25 @@ Type  : Slow 1100mV -40C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps
 Slack : 0.546
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Type  : Slow 1100mV -40C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
 Slack : 1.562
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'FPGA_CLK1_50'
-Slack : 8.788
+Slack : 8.787
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Type  : Slow 1100mV -40C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
 Slack : 11.053
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 18.182
+Slack : 18.251
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Setup 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : -0.084
-TNS   : -0.084
+Type  : Fast 1100mV 100C Model Setup 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.247
+TNS   : -0.938
 
 Type  : Fast 1100mV 100C Model Setup 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 2.113
@@ -191,23 +191,23 @@ Slack : 12.295
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'FPGA_CLK1_50'
-Slack : 12.860
+Slack : 13.554
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 0.083
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Hold 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.137
+Type  : Fast 1100mV 100C Model Hold 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.132
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'altera_reserved_tck'
-Slack : 0.155
+Slack : 0.160
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'FPGA_CLK1_50'
-Slack : 0.176
+Slack : 0.177
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -215,27 +215,27 @@ Slack : 3.731
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'FPGA_CLK1_50'
-Slack : 14.835
+Slack : 15.798
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'altera_reserved_tck'
-Slack : 18.446
+Slack : 19.322
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Recovery 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 23.715
+Type  : Fast 1100mV 100C Model Recovery 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 23.709
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Removal 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Type  : Fast 1100mV 100C Model Removal 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
 Slack : 0.284
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'FPGA_CLK1_50'
-Slack : 0.296
+Slack : 0.302
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'altera_reserved_tck'
-Slack : 0.420
+Slack : 0.399
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -250,7 +250,7 @@ Type  : Fast 1100mV 100C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps
 Slack : 0.891
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Type  : Fast 1100mV 100C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
 Slack : 1.562
 TNS   : 0.000
 
@@ -258,16 +258,16 @@ Type  : Fast 1100mV 100C Model Minimum Pulse Width 'FPGA_CLK1_50'
 Slack : 8.508
 TNS   : 0.000
 
-Type  : Fast 1100mV 100C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Type  : Fast 1100mV 100C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
 Slack : 11.388
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 18.013
+Slack : 18.054
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Setup 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 1.129
+Type  : Fast 1100mV -40C Model Setup 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 1.013
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -279,23 +279,23 @@ Slack : 12.676
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'FPGA_CLK1_50'
-Slack : 14.159
+Slack : 14.599
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
 Slack : 0.076
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Hold 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.089
+Type  : Fast 1100mV -40C Model Hold 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.105
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'altera_reserved_tck'
-Slack : 0.137
+Slack : 0.139
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'FPGA_CLK1_50'
-Slack : 0.153
+Slack : 0.154
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -303,27 +303,27 @@ Slack : 3.843
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'FPGA_CLK1_50'
-Slack : 15.863
+Slack : 16.565
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 18.837
+Slack : 19.541
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Recovery 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 23.915
+Type  : Fast 1100mV -40C Model Recovery 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 23.944
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Removal 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.159
+Type  : Fast 1100mV -40C Model Removal 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.187
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'FPGA_CLK1_50'
-Slack : 0.254
+Slack : 0.260
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.334
+Slack : 0.318
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'soc_system:u0|soc_system_hps_0:hps_0|soc_system_hps_0_hps_io:hps_io|soc_system_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
@@ -338,20 +338,20 @@ Type  : Fast 1100mV -40C Model Minimum Pulse Width 'soc_system:u0|soc_system_hps
 Slack : 0.895
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Type  : Fast 1100mV -40C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
 Slack : 1.562
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'FPGA_CLK1_50'
-Slack : 8.437
+Slack : 8.439
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Minimum Pulse Width 'comb_188|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 11.393
+Type  : Fast 1100mV -40C Model Minimum Pulse Width 'comb_201|pll_40mhz_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 11.392
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 17.976
+Slack : 18.015
 TNS   : 0.000
 
 ------------------------------------------------------------
