@@ -19,7 +19,7 @@ How to run:
 - Connect with SSH to communicate with the board
 - Login: root  | Password: simhits
 - SSH Command: " ./change_occupancy"
-- Type the desired occupancy (The Simulator understands only values between 0 and 127, which is 0% and 100%, respcitvely)
+- To change the occupancy or offset, follow the program menu
 - Open the project in Quartus
 - Connect the board in the USB BLASTER II port
 - Go in "Files" and open the "stp1.stp"
