@@ -71,8 +71,8 @@ std_rounded_pzc = std(error_rounded_pzc/m_factor);
 cell = "A13";
 
 % Name of the memories with weights
-nome_arquivo1 = strcat('../../../HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/weight_ls_normal_',cell,'_test.mif');
-nome_arquivo2 = strcat('../../../HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/weight_ls_pzc_',cell,'_test.mif');
+nome_arquivo1 = strcat('../../../HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/weight_ls_normal_',cell,'.mif');
+nome_arquivo2 = strcat('../../../HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/weight_ls_pzc_',cell,'.mif');
 
 % Converting data and creating the memory files
 w_10bits = round(w_normal*quant);
