@@ -1,20 +1,27 @@
+// FENICS SHAPER SIMULATION
 module shaper_fenics
 #( 
-	parameter BITS_IN = 34,
-	parameter G_ENTRADA = 2**32,
-	parameter G_SAIDA_LOG = 10
+	parameter BITS_IN = 34,      //Bits of the energy impulses
+	parameter G_ENTRADA = 2**32, //Gain of the input
+	parameter G_SAIDA_LOG = 10   //Gain of the weights
 )
 (
+	//Clock signal
 	input  clock, 
+	//Energy impulse input
 	input  signed [BITS_IN-1:0] in,
+	//Shaper output
 	output signed [BITS_IN+16:0] out
 );
 
 
+//IIR Outputs
 wire signed [BITS_IN+16:0] out1, out2, out3, out4, out5, out6;
 
 /////////////////////////////
-iir_ordem1
+/////// IIR FILTERS /////////
+/////////////////////////////
+iir_ordem1 //1st order
 #( 
 	.BITS_IN(BITS_IN),
 	.G_ENTRADA(G_ENTRADA),
@@ -29,7 +36,7 @@ iir_ordem1
 );
 
 /////////////////////////////
-iir_ordem2
+iir_ordem2 //2nd order
 #( 
 	.BITS_IN(BITS_IN),
 	.G_ENTRADA(G_ENTRADA),
@@ -113,6 +120,8 @@ iir_ordem1
 	.out(out6)
 );
 
+
+//Summing all IIR outputs
 assign out = out1 + out2 + out3 + out4 + out5 + out6;
 
 

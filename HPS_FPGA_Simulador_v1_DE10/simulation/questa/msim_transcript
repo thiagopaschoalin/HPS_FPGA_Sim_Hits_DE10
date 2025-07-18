@@ -1,0 +1,374 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do DE10_NANO_SoC_GHRD_run_msim_rtl_verilog.do
+# if ![file isdirectory DE10_NANO_SoC_GHRD_iputf_libs] {
+# 	file mkdir DE10_NANO_SoC_GHRD_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo"
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:50 on Jul 17,2025
+# vlog -reportprogress 300 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo 
+# -- Compiling module pll_40mhz
+# 
+# Top level modules:
+# 	pll_40mhz
+# End time: 12:42:50 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:50 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v 
+# -- Compiling module fir_generic
+# 
+# Top level modules:
+# 	fir_generic
+# End time: 12:42:50 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:51 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v 
+# -- Compiling module clip_shaper
+# 
+# Top level modules:
+# 	clip_shaper
+# End time: 12:42:51 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:51 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v 
+# -- Compiling module noise_distribution
+# 
+# Top level modules:
+# 	noise_distribution
+# End time: 12:42:51 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:51 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v 
+# -- Compiling module noise_collisions
+# 
+# Top level modules:
+# 	noise_collisions
+# End time: 12:42:51 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:51 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v 
+# -- Compiling module pzc_ped_track
+# 
+# Top level modules:
+# 	pzc_ped_track
+# End time: 12:42:51 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:52 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v 
+# -- Compiling module shaper_fenics
+# 
+# Top level modules:
+# 	shaper_fenics
+# End time: 12:42:52 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:52 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v 
+# -- Compiling module select_rand
+# 
+# Top level modules:
+# 	select_rand
+# End time: 12:42:52 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:52 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v 
+# -- Compiling module random_number_generator
+# 
+# Top level modules:
+# 	random_number_generator
+# End time: 12:42:52 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:52 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v 
+# -- Compiling module rand_LFSR
+# 
+# Top level modules:
+# 	rand_LFSR
+# End time: 12:42:52 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:53 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v 
+# -- Compiling module iir_ordem2
+# 
+# Top level modules:
+# 	iir_ordem2
+# End time: 12:42:53 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:53 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v 
+# -- Compiling module iir_ordem1
+# 
+# Top level modules:
+# 	iir_ordem1
+# End time: 12:42:53 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:53 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v 
+# -- Compiling module hits_positions
+# 
+# Top level modules:
+# 	hits_positions
+# End time: 12:42:53 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:53 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v 
+# -- Compiling module Hits_Bunch_train
+# 
+# Top level modules:
+# 	Hits_Bunch_train
+# End time: 12:42:53 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:54 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v 
+# -- Compiling module FPGA_Simulator_v1_PZC
+# 
+# Top level modules:
+# 	FPGA_Simulator_v1_PZC
+# End time: 12:42:54 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:54 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v 
+# -- Compiling module energy_distribution
+# 
+# Top level modules:
+# 	energy_distribution
+# End time: 12:42:54 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:54 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v 
+# -- Compiling module energy_collisions
+# 
+# Top level modules:
+# 	energy_collisions
+# End time: 12:42:54 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:54 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v 
+# -- Compiling module bunch_train_mask
+# 
+# Top level modules:
+# 	bunch_train_mask
+# End time: 12:42:55 on Jul 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:55 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v 
+# -- Compiling module altera_edge_detector
+# 
+# Top level modules:
+# 	altera_edge_detector
+# End time: 12:42:55 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:55 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 12:42:55 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:55 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v 
+# -- Compiling module hps_reset
+# 
+# Top level modules:
+# 	hps_reset
+# End time: 12:42:55 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10 {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:55 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v 
+# -- Compiling module DE10_NANO_SoC_GHRD
+# 
+# Top level modules:
+# 	DE10_NANO_SoC_GHRD
+# End time: 12:42:56 on Jul 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos {C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:42:56 on Jul 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos" C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v 
+# -- Compiling module FPGA_Simulator_v1_PZC_tb
+# 
+# Top level modules:
+# 	FPGA_Simulator_v1_PZC_tb
+# End time: 12:42:56 on Jul 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  FPGA_Simulator_v1_PZC_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" FPGA_Simulator_v1_PZC_tb 
+# Start time: 12:42:56 on Jul 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v(57): (vopt-2685) [TFMPC] - Too few port connections for 'sim_v1_PZC'.  Expected 17, found 16.
+# ** Warning: C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v(57): (vopt-2718) [TFMPC] - Missing connection for port 'bt_mask_out'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.FPGA_Simulator_v1_PZC_tb(fast)
+# Loading work.FPGA_Simulator_v1_PZC(fast)
+# Loading work.Hits_Bunch_train(fast)
+# Loading work.random_number_generator(fast)
+# Loading work.rand_LFSR(fast)
+# Loading work.rand_LFSR(fast__1)
+# Loading work.rand_LFSR(fast__2)
+# Loading work.rand_LFSR(fast__3)
+# Loading work.rand_LFSR(fast__4)
+# Loading work.rand_LFSR(fast__5)
+# Loading work.rand_LFSR(fast__6)
+# Loading work.select_rand(fast)
+# Loading work.hits_positions(fast)
+# Loading work.bunch_train_mask(fast)
+# Loading work.energy_collisions(fast)
+# Loading work.random_number_generator(fast__1)
+# Loading work.rand_LFSR(fast__7)
+# Loading work.rand_LFSR(fast__8)
+# Loading work.rand_LFSR(fast__9)
+# Loading work.rand_LFSR(fast__10)
+# Loading work.rand_LFSR(fast__11)
+# Loading work.rand_LFSR(fast__12)
+# Loading work.rand_LFSR(fast__13)
+# Loading work.select_rand(fast__1)
+# Loading work.random_number_generator(fast__2)
+# Loading work.rand_LFSR(fast__14)
+# Loading work.rand_LFSR(fast__15)
+# Loading work.rand_LFSR(fast__16)
+# Loading work.rand_LFSR(fast__17)
+# Loading work.rand_LFSR(fast__18)
+# Loading work.rand_LFSR(fast__19)
+# Loading work.rand_LFSR(fast__20)
+# Loading work.random_number_generator(fast__3)
+# Loading work.rand_LFSR(fast__21)
+# Loading work.rand_LFSR(fast__22)
+# Loading work.rand_LFSR(fast__23)
+# Loading work.rand_LFSR(fast__24)
+# Loading work.rand_LFSR(fast__25)
+# Loading work.rand_LFSR(fast__26)
+# Loading work.rand_LFSR(fast__27)
+# Loading work.energy_distribution(fast)
+# Loading work.shaper_fenics(fast)
+# Loading work.iir_ordem1(fast)
+# Loading work.iir_ordem2(fast)
+# Loading work.iir_ordem2(fast__1)
+# Loading work.iir_ordem1(fast__1)
+# Loading work.iir_ordem2(fast__2)
+# Loading work.iir_ordem1(fast__2)
+# Loading work.noise_collisions(fast)
+# Loading work.random_number_generator(fast__4)
+# Loading work.rand_LFSR(fast__28)
+# Loading work.rand_LFSR(fast__29)
+# Loading work.rand_LFSR(fast__30)
+# Loading work.rand_LFSR(fast__31)
+# Loading work.rand_LFSR(fast__32)
+# Loading work.rand_LFSR(fast__33)
+# Loading work.rand_LFSR(fast__34)
+# Loading work.random_number_generator(fast__5)
+# Loading work.rand_LFSR(fast__35)
+# Loading work.rand_LFSR(fast__36)
+# Loading work.rand_LFSR(fast__37)
+# Loading work.rand_LFSR(fast__38)
+# Loading work.rand_LFSR(fast__39)
+# Loading work.rand_LFSR(fast__40)
+# Loading work.rand_LFSR(fast__41)
+# Loading work.random_number_generator(fast__6)
+# Loading work.rand_LFSR(fast__42)
+# Loading work.rand_LFSR(fast__43)
+# Loading work.rand_LFSR(fast__44)
+# Loading work.rand_LFSR(fast__45)
+# Loading work.rand_LFSR(fast__46)
+# Loading work.rand_LFSR(fast__47)
+# Loading work.rand_LFSR(fast__48)
+# Loading work.random_number_generator(fast__7)
+# Loading work.rand_LFSR(fast__49)
+# Loading work.rand_LFSR(fast__50)
+# Loading work.rand_LFSR(fast__51)
+# Loading work.rand_LFSR(fast__52)
+# Loading work.rand_LFSR(fast__53)
+# Loading work.rand_LFSR(fast__54)
+# Loading work.rand_LFSR(fast__55)
+# Loading work.select_rand(fast__2)
+# Loading work.noise_distribution(fast)
+# Loading work.clip_shaper(fast)
+# Loading work.pzc_ped_track(fast)
+# Loading work.fir_generic(fast)
+# Loading work.fir_generic(fast__1)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (32) for port 'occupancy'. The port definition is at: C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v(37).
+#    Time: 0 ps  Iteration: 0  Instance: /FPGA_Simulator_v1_PZC_tb/sim_v1_PZC File: C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v Line: 57
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 us
+# End time: 13:04:21 on Jul 17,2025, Elapsed time: 0:21:25
+# Errors: 0, Warnings: 4

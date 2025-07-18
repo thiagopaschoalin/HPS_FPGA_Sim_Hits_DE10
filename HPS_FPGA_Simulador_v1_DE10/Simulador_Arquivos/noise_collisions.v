@@ -1,3 +1,4 @@
+// NOISE GENERATOR - SAME COMENTS OF ENERGY COLLISIONS
 module noise_collisions
 #(
 	parameter RAND_BITS = 10,

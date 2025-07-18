@@ -1,0 +1,42 @@
+STD - RMSE
+----  A13 - 7 pesos ----
+
+--1
+Wiener:     13.46 - 118.80
+PZC+Wiener: 9.80  - 9.96
+
+--2
+Wiener:     13.73 - 120.73
+PZC+Wiener: 9.76  - 10.05
+
+--3
+Wiener:     13.98 - 119.24
+PZC+Wiener: 9.72  - 10.11
+
+--4
+Wiener:     13.70 - 119.99
+PZC+Wiener: 9.71  - 9.93
+
+--5
+Wiener:     13.89 - 118.75
+PZC+Wiener: 9.79  - 9.98
+
+--6
+Wiener:     13.90 - 120.32
+PZC+Wiener: 9.77  - 9.95
+
+--7
+Wiener:     14.14 - 122.33
+PZC+Wiener: 9.84  - 9.95
+
+--8
+Wiener:     13.63 - 119.48
+PZC+Wiener: 9.67  - 10.05
+
+--9
+Wiener:     13.83 - 119.83
+PZC+Wiener: 9.84  - 10.14
+
+--10
+Wiener:     13.36 - 117.24
+PZC+Wiener: 9.69  - 9.92

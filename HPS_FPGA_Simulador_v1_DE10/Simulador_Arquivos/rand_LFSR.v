@@ -1,26 +1,29 @@
+//LFSR RNG
 module rand_LFSR
 #(
-	parameter seed = 64'd12345,
-	parameter DATA_OUT_SIZE = 7,
-	parameter LFSR_BITS = 64
+	parameter seed = 64'd12345,  //SEED
+	parameter DATA_OUT_SIZE = 7, //Bits of output
+	parameter LFSR_BITS = 64     //Bits of LFSR structure
 )
 (
+	//Clock and reset signals
 	input clk, rst,
+	//LFSR output
 	output [DATA_OUT_SIZE-1:0] rand_out
 );
 
-//reg [LFSR_BITS-1:0] bitv = 0;
+
 reg bitv = 0;
 
-reg [LFSR_BITS-1:0] lfsr = seed;  // Registrador de deslocamento inicializado com um valor não zero
+reg [LFSR_BITS-1:0] lfsr = seed;  // Starting with the Seed
 
 always @(posedge clk or posedge rst) begin
 	if (rst) begin
-		lfsr <= seed;  // Reinicializa o LFSR em caso de reset
+		lfsr <= seed;
 		bitv <= 1'd0;
 	end else begin
 	
-		// Lógica para o feedback do LFSR (XOR dos bits específicos)
+		// feedback logic of LFSR (XOR of specofic bits)
 		//LFSR 32BITS
 		//bitv = ((lfsr >> 0) ^ (lfsr >> 2) ^ (lfsr >> 24) ^ (lfsr >> 25)) & 32'b1;
 		//lfsr = (lfsr >> 1) | (bitv << 31);
@@ -42,7 +45,7 @@ always @(posedge clk or posedge rst) begin
 	end
 end
 
-// Saída aleatória de 7 bits
+// Random output 
 assign rand_out = lfsr[DATA_OUT_SIZE-1:0];
 
 endmodule

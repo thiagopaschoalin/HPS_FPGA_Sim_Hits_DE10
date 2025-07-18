@@ -1,17 +1,25 @@
+// Define the Hits positions 
 module Hits_Bunch_train
 #(
-	parameter RAND_BITS = 7,
-	parameter BUNCH_MEM = "bunch_train_mask.mif",
-	parameter BUNCH_POS = 3564,
-	parameter BUNCH_TRAIN_ACTIVE = 1
+	parameter RAND_BITS = 7,                       //Bits of random number generator to hits positions
+	parameter BUNCH_MEM = "bunch_train_mask.mif",  //Memory name of the Bunch train pattern
+	parameter BUNCH_POS = 3564,                    //Number of positions of bunch train pattern memory
+	parameter BUNCH_TRAIN_ACTIVE = 1               //Activate the bunch train pattern
 )
 (
+	//Clock and reset signals
 	input clk, rst,
+	//Occupancy of the cell (0 - 0%; 127 - 100%)
 	input [RAND_BITS-1:0] occupancy,
-	output hits_out, hits_orig, bt_mask_out
+	// Hits + Bunch train pattern output
+	output hits_out, 
+	// Hits without Bunch train pattern output
+	output hits_orig, 
+	// Bunch train pattern mask output
+	output bt_mask_out
 );
 
-
+//Random number generator
 wire [RAND_BITS-1:0] rand_hits;
 
 random_number_generator
@@ -32,6 +40,7 @@ random_number_generator
 	.rand_out(rand_hits)
 );
 
+//Defining the positions of the hits with the occupancy
 wire hits;
 
 hits_positions
@@ -46,6 +55,7 @@ hits_positions
 	.hit(hits)
 );
 
+//Bunch train pattern mask
 wire bt_out;
 
 bunch_train_mask
@@ -59,7 +69,8 @@ bunch_train_mask
 	.out(bt_out)
 );
 
-assign hits_orig = hits;
+//Adjusting the outputs
+assign hits_orig = hits; 
 assign bt_mask_out = bt_out | ~BUNCH_TRAIN_ACTIVE[0];
 assign hits_out = hits & bt_mask_out;
 

@@ -1,0 +1,581 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/simulation/questa
+T_opt
+!s110 1752766983
+V6_nj2<hU9iT]Bon<Qa3a:2
+04 24 4 work FPGA_Simulator_v1_PZC_tb fast 0
+=1-782bcbeb783d-68791a05-1c9-30d8
+R0
+!s12b OEM100
+!s124 OEM10U92 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+valtera_edge_detector
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v
+Z3 !s110 1752766975
+!i10b 1
+!s100 Z9814a12O5?DUjml?2`d90
+IRN_k<7VPagWJ^V`2K408A3
+R1
+Z4 w1731005165
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v
+!i122 18
+L0 1 85
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1752766975.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect/altera_edge_detector.v|
+!i113 0
+Z8 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/edge_detect -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbunch_train_mask
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v
+R3
+!i10b 1
+!s100 ISNhTQ8Yi>U62RO?dJ0:F0
+I?WCKa2[6[YnHZlL^Y>[8J2
+R1
+w1752689801
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v
+!i122 17
+L0 2 46
+R5
+R6
+r1
+!s85 0
+31
+Z9 !s108 1752766974.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/bunch_train_mask.v|
+!i113 0
+R8
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclip_shaper
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v
+Z11 !s110 1752766971
+!i10b 1
+!s100 `YWd8c:AA1iJh9W]oZP4Z3
+ImO`;hPWl`A_[zL`AFW13h1
+R1
+w1752686609
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v
+!i122 2
+Z12 L0 2 41
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1752766971.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/clip_shaper.v|
+!i113 0
+R8
+R10
+R2
+vDE10_NANO_SoC_GHRD
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v
+Z14 !s110 1752766976
+!i10b 1
+!s100 XN]^9VJZV:bT4Th4K`5X^2
+IC0]IYnoA;IH:z9PL@;GjG2
+R1
+w1752766573
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v
+!i122 21
+L0 9 329
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/de10_nano_soc_ghrd.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@d@e10_@n@a@n@o_@so@c_@g@h@r@d
+vdebounce
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v
+R3
+!i10b 1
+!s100 zNI<ZT3;0174WH]bNg<YE2
+ITYL3akJQDgT6S<9LH=EnY0
+R1
+R4
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v
+!i122 19
+L0 13 62
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce/debounce.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/debounce -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+venergy_collisions
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v
+Z15 !s110 1752766974
+!i10b 1
+!s100 2?ZFj1kaeiLQjKmjZ]3o91
+If^g7zK=fF8l_GnW04z6Bk1
+R1
+w1752687092
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v
+!i122 16
+L0 2 103
+R5
+R6
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_collisions.v|
+!i113 0
+R8
+R10
+R2
+venergy_distribution
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v
+R15
+!i10b 1
+!s100 9LX=n6ff0mjD<0aOz1@792
+ICOYIMNF[O_l;m`N8i7n<;3
+R1
+w1752687389
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v
+!i122 15
+L0 2 63
+R5
+R6
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/energy_distribution.v|
+!i113 0
+R8
+R10
+R2
+vfir_generic
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v
+Z16 !s110 1752766970
+!i10b 1
+!s100 D@QWCCj2k1c2R2Wg9Kd]^1
+I77KIU@S7[QQl3FP4VTMO11
+R1
+w1751633621
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v
+!i122 1
+L0 1 59
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1752766970.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/fir_generic.v|
+!i113 0
+R8
+R10
+R2
+vFPGA_Simulator_v1_PZC
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v
+R15
+!i10b 1
+!s100 mA^=;k<MR^DajkgiEl>[D1
+IXJ8Lh1dYa;Hhj104E0B1Z3
+R1
+w1752693194
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v
+!i122 14
+L0 2 231
+R5
+R6
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC.v|
+!i113 0
+R8
+R10
+R2
+n@f@p@g@a_@simulator_v1_@p@z@c
+vFPGA_Simulator_v1_PZC_tb
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v
+R14
+!i10b 1
+!s100 dd0W03OA0PAb:QDKLn]0;0
+IdRj=Y3FC3m?g74QQRlJSE0
+R1
+w1752686351
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v
+!i122 22
+L0 2 128
+R5
+R6
+r1
+!s85 0
+31
+!s108 1752766976.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/FPGA_Simulator_v1_PZC_tb.v|
+!i113 0
+R8
+R10
+R2
+n@f@p@g@a_@simulator_v1_@p@z@c_tb
+vHits_Bunch_train
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v
+Z18 !s110 1752766973
+!i10b 1
+!s100 l<dee2JInaa:^gm;nGN7P0
+IagDOQXGPhYRZ^POFSeW:N1
+R1
+w1752688633
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v
+!i122 13
+L0 2 76
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1752766973.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/Hits_Bunch_train.v|
+!i113 0
+R8
+R10
+R2
+n@hits_@bunch_train
+vhits_positions
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v
+R18
+!i10b 1
+!s100 dR9PYf`SV[3P_2BJQVg083
+IT34j_di9aT6KNfo7Vl1HH3
+R1
+w1752688806
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v
+!i122 12
+L0 2 32
+R5
+R6
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/hits_positions.v|
+!i113 0
+R8
+R10
+R2
+vhps_reset
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v
+R3
+!i10b 1
+!s100 nj_UTG[fd7Zg8=NGe4L:M3
+IQH1Go3<Q4>9Cmk?fK8;XZ3
+R1
+R4
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v
+!i122 20
+L0 40 47
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe/hps_reset.v|
+!i113 0
+R8
+!s92 -vlog01compat -work work +incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/ip/altsource_probe -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+viir_ordem1
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v
+R18
+!i10b 1
+!s100 ccR]2Lfi9LO>G:hWPcH<00
+InZ5kkjNYS[a5@eYI]Q@Sz3
+R1
+w1752689378
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v
+!i122 11
+R12
+R5
+R6
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem1.v|
+!i113 0
+R8
+R10
+R2
+viir_ordem2
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v
+R18
+!i10b 1
+!s100 Ge3mmATQn0llW?aDYE6:M1
+ID4>lNKBPiXhZPHQPclJgj0
+R1
+w1752689571
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v
+!i122 10
+L0 2 45
+R5
+R6
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/iir_ordem2.v|
+!i113 0
+R8
+R10
+R2
+vnoise_collisions
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v
+R11
+!i10b 1
+!s100 l^oCJizSl[Ra@nzlgoKa^0
+IWi9eB<37RL90FZ=07TQHF0
+R1
+w1752688864
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v
+!i122 4
+L0 2 121
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_collisions.v|
+!i113 0
+R8
+R10
+R2
+vnoise_distribution
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v
+R11
+!i10b 1
+!s100 az5aU4SDLDO6eO3oL08P?0
+ITnG=JfV@<Gzeo:[<R;CIC0
+R1
+w1748641983
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v
+!i122 3
+L0 1 73
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/noise_distribution.v|
+!i113 0
+R8
+R10
+R2
+vpll_40mhz
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo
+R16
+!i10b 1
+!s100 I>29_hj[^NQmgHY?c3;@H3
+IaVl0?>e<6m6bg05DHMCCa0
+R1
+w1747156252
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo
+!i122 0
+L0 32 264
+R5
+R6
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo|
+!s90 -reportprogress|300|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/pll_40mhz_sim/pll_40mhz.vo|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpzc_ped_track
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v
+R11
+!i10b 1
+!s100 l8?PY@j`^3bD@jbf16I>=1
+IJ:eYgST>2Agkf9dI<QJSI0
+R1
+w1752692428
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v
+!i122 5
+L0 2 221
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/pzc_ped_track.v|
+!i113 0
+R8
+R10
+R2
+vrand_LFSR
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v
+Z20 !s110 1752766972
+!i10b 1
+!s100 emmng9Hb@BC2aQA;1zh<G0
+IEaQ4ooD[EC=ee1F75P=:A0
+R1
+w1752687943
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v
+!i122 9
+L0 2 50
+R5
+R6
+r1
+!s85 0
+31
+Z21 !s108 1752766972.000000
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/rand_LFSR.v|
+!i113 0
+R8
+R10
+R2
+nrand_@l@f@s@r
+vrandom_number_generator
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v
+R20
+!i10b 1
+!s100 Y8QUI3^_2`z=4F0?azVFB0
+IC@D8Xk<[Gb=Pf`TbHDjCk3
+R1
+w1752687950
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v
+!i122 8
+L0 2 146
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/random_number_generator.v|
+!i113 0
+R8
+R10
+R2
+vselect_rand
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v
+R20
+!i10b 1
+!s100 4le^OLVQdOW8TCM4<2jf91
+Ic4jBaLDJ4Q]<gZT_QgX9B1
+R1
+w1752688251
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v
+!i122 7
+L0 2 47
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/select_rand.v|
+!i113 0
+R8
+R10
+R2
+vshaper_fenics
+2C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v
+R20
+!i10b 1
+!s100 2l2_fz2>kSY49adT2BgP[3
+IcR9hmk]WB3m;Z=dhHaDT_3
+R1
+w1752689170
+8C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v
+FC:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v
+!i122 6
+L0 2 127
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos|C:/Users/luacacio/Documents/FPGA_Doutorado/HPS_FPGA_Sim_DE10_Git/HPS_FPGA_Simulador_v1_DE10/Simulador_Arquivos/shaper_fenics.v|
+!i113 0
+R8
+R10
+R2

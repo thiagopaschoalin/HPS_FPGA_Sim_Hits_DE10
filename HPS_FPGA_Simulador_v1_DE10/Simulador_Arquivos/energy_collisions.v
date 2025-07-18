@@ -1,22 +1,27 @@
+// ENERGY COLLISION GENERATOR
 module energy_collisions
 #(
-	parameter RAND_BITS = 10,
-	parameter ENG_OUT_BITS = 12,
-	parameter MEM_ENG_SIZE = 2**10,
-	parameter MEM_ENG0 = "A13_PART1.mif",
-	parameter MEM_ENG1 = "A13_PART2.mif",
-	parameter MEM_ENG2 = "A13_PART3.mif",
-	parameter MEM_ENG0_THRESH = 1001,
-	parameter MEM_ENG1_THRESH = 985
+	parameter RAND_BITS = 10, //Bits of random number generator to energy generator
+	parameter ENG_OUT_BITS = 12, //Output bits of the energy generator
+	parameter MEM_ENG_SIZE = 2**10, //Size of the memory that generates the energy
+	parameter MEM_ENG0 = "A13_PART1.mif", //Name of the 1st memory
+	parameter MEM_ENG1 = "A13_PART2.mif", //Name of the 2nd memory
+	parameter MEM_ENG2 = "A13_PART3.mif", //Name of the 3rd memory
+	parameter MEM_ENG0_THRESH = 1001,     //1st memory position threshold
+	parameter MEM_ENG1_THRESH = 985       //2nd memory position threshold
 )
 (
+	//Clock and reset signals
 	input clk, rst,
+	// Energy output
 	output [ENG_OUT_BITS-1:0] energy_out
 );
 
-
+//Random numbers
 wire [RAND_BITS-1:0] rand0, rand1,rand2;
 
+
+// Random number generator for 1st memory
 random_number_generator
 #(
 	.RAND_OUT_SIZE(RAND_BITS),
@@ -35,8 +40,7 @@ random_number_generator
 	.rand_out(rand0)
 );
 
-
-
+// Random number generator for 2nd memory
 random_number_generator
 #(
 	.RAND_OUT_SIZE(RAND_BITS),
@@ -57,7 +61,7 @@ random_number_generator
 
 
 
-
+// Random number generator for 2nd memory
 random_number_generator
 #(
 	.RAND_OUT_SIZE(RAND_BITS),
@@ -76,6 +80,7 @@ random_number_generator
 	.rand_out(rand2)
 );
 
+// Generates the energy 
 energy_distribution
 #(
 	.RAND_IN_BITS(RAND_BITS),

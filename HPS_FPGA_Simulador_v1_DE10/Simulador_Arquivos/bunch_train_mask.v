@@ -1,22 +1,27 @@
+// APPLY THE BUNCH TRAIN MASK
 module bunch_train_mask
 #(
-	parameter BUNCH_MEM = "bunch_train_mask.mif",
-	parameter BUNCH_POS = 3564
+	parameter BUNCH_MEM = "bunch_train_mask.mif", //Name of the memory of Bunch train pattern
+	parameter BUNCH_POS = 3564                    //Size of memory of Bunch train pattern
 )
 (
+	//Clock and reset signals
 	input clk,rst,
+	//Output of the bunch train pattern
 	output reg out = 0
 );
 
+
+// Initiate the memory
 reg mask [0:BUNCH_POS-1];
-
-reg [$clog2(BUNCH_POS)-1:0] position = 0;
-
 
 initial begin
 	$readmemb(BUNCH_MEM, mask);
 end
 
+
+//Pass through all bunch train pattern memory
+reg [$clog2(BUNCH_POS)-1:0] position = 0;
 
 always@(posedge clk or posedge rst) begin
 
